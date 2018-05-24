@@ -2,14 +2,14 @@
     "CACHE_HASH_ALGORITHM": "sha1",
     "DOWNLOAD_METHOD": "custom",
     "DOWNLOAD_CLASS": "maven_build_pack.CurlCustomDownloader",
-    "JAVA_DOWNLOAD_PREFIX": "http://download.oracle.com/otn-pub/java/jdk/7u72-b14/",
-    "JAVA_PACKAGE": "jdk-7u72-linux-x64.tar.gz",
-    "JAVA_PACKAGE_HASH": "cfa44b49e50ea06e5c6ab95ff79e5b2a",
+    "JAVA_DOWNLOAD_PREFIX": "http://download.oracle.com/otn-pub/java/jdk/10.0.1+10/fb4372174a714e6b8c52526dc134031e/",
+    "JAVA_PACKAGE": "jdk-10.0.1_linux-x64_bin.tar.gz",
+    "JAVA_PACKAGE_HASH": "4F0B8A0186BA62E2A3303D8A26D349F7",
     "JAVA_STRIP": true,
-    "MAVEN_DOWNLOAD_PREFIX": "http://apache.osuosl.org/maven/maven-3/3.1.1/binaries/",
-    "MAVEN_PACKAGE": "apache-maven-3.1.1-bin.tar.gz",
-    "MAVEN_PACKAGE_HASH": "630eea2107b0742acb315b214009ba08602dda5f",
+    "MAVEN_DOWNLOAD_PREFIX": "http://www-eu.apache.org/dist/maven/maven-3/3.5.3/binaries/",
+    "MAVEN_PACKAGE": "apache-maven-3.5.3-bin.tar.gz",
+    "MAVEN_PACKAGE_HASH": "bbfa43a4ce4ef96732b896d057f8a613aa229801",
     "MAVEN_STRIP": true,
-    "MAVEN_BUILD_COMMAND": "test",
-    "MAVEN_RUN_COMMAND": "tomcat7:run"
+    "MAVEN_BUILD_COMMAND": "clean package",
+    "MAVEN_RUN_COMMAND": "spring-boot:run"
 }
